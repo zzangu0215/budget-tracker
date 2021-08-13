@@ -69,7 +69,7 @@ This application is covered by the **ISC** license.
 If you want to watch the demo video for how to use the application, check out the video below.
 
 **CLICK THE PLAY BUTTON**  
-[![Image Caption](images/thumbnail.PNG)](https://youtu.be/AeKqxNhZxGY)
+[![Image Caption](images/thumbnail.PNG)](https://youtu.be/GiIavK5xQfo)
 
 ## 😎 Author
 
