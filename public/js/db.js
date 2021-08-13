@@ -1,7 +1,7 @@
 // TODO: setup indexedDb connection and create an object store for saving
 // transaction data when the user is offline.
 let db;
-const request = window.indexedDB.open("budget-db", 1);
+const request = window.indexedDB.open("budget_db", 1);
 
 request.onerror = function (evt) {
   console.log(`Woops!⛔ ${evt.target.errorCode}`);
@@ -29,7 +29,7 @@ function saveRecord(record) {
   // TODO: this function should save a transaction object to indexedDB so that
   // it can be synced with the database when the user goes back online.
   const transaction = db.transaction(["BudgetStore"], "readwrite");
-  const budgetStore = transaction.objectStoreNames("BudgetStore");
+  const budgetStore = transaction.objectStore("BudgetStore");
   budgetStore.add(record);
 }
 
