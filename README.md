@@ -14,29 +14,36 @@
 ## Table of Contents
 
 - [**Description**](#-description)
-- [**Installation**](#-installation)
 - [**Usage**](#-usage)
+- [**Installation**](#-installation)
 - [**License**](#-license)
 - [**Demo Video**](#-demo-video)
-- [**Questions**](#-questions)
-- [**Contributing**](#-contributing)
 - [**Author**](#-author)
 
 ## 📑 Description
 
-As a person who loves fitness, don't you want to track the schedule of your workouts and exercises in one application?
+As a traveller, how would you manage your budget if the internect connection is gone? There is an **PWA** application for you so that you can keep track your widhdrawals and deposits with/without a data/internet connection.
 
-It's time to use **Workout Tracker** to fulfill your needs!
+Visit [**Budget Tracker**](https://budget-tracker-sjp.herokuapp.com/) and install the app to your phone! (Follow the guides below) Enjoy your travel with the **Budget Tracker**!
 
-**CLICK THE IMAGE BELOW TO EXPLORE THE APP**  
-[![Image Caption](images/homepage.PNG)](https://fitness-tracker-sjp.herokuapp.com/)
+## 💻 Usage
+
+1. Open [**Budget Tracker**](https://budget-tracker-sjp.herokuapp.com/)
+   - in Safari if you're using iPhone
+   - in Chrome if you're using Android
+2. Click on "Share" icon below (middle icon).  
+   ![Image Caption](images/share-icon.jpg)
+3. Click "Add to Home Screen".  
+   ![Image Caption](images/add-to-home.jpg)
+4. Enjoy using **Budget Tracker App**!  
+   ![Image Caption](images/icon.jpg)
 
 ## 💾 Installation
 
 Clone my repository.
 
 ```
-git clone git@github.com:zzangu0215/workout-tracker.git
+git clone git@github.com:zzangu0215/budget-tracker.git
 ```
 
 Type and run **`npm i`** in your terminal to install the following dependencies.
@@ -44,8 +51,8 @@ Type and run **`npm i`** in your terminal to install the following dependencies.
 - **`express`**
 - **`mongoose`**
 - **`morgan`**
-
-## 💻 Usage
+- **`compression`**
+- **`lite-server`**
 
 To test my app locally, type the following command to your terminal.
 
@@ -62,15 +69,7 @@ This application is covered by the **ISC** license.
 If you want to watch the demo video for how to use the application, check out the video below.
 
 **CLICK THE PLAY BUTTON**  
-[![Image Caption](images/youtube-play-button.PNG)](https://youtu.be/AeKqxNhZxGY)
-
-## 🔥 Contributing
-
-**Israel Magallon**
-
-- Portfolio: [**Portfolio**](https://imagallon.github.io/portfolio1.1/) (to be updated)
-- Email: **izzymagallonworks@gmail.com**
-- Github: [**GitHub**](https://github.com/imagallon)
+[![Image Caption](images/thumbnail.PNG)](https://youtu.be/AeKqxNhZxGY)
 
 ## 😎 Author
 
